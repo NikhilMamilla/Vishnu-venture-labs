@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -9,6 +9,8 @@ import Home from './Home';
 import Facilities from './components/Facilities';
 import Startups from './components/Startups';
 import Team from './components/Team';
+import Contact from './components/Contact';
+import Events from './components/Events';
 
 function App() {
   useEffect(() => {
@@ -29,6 +31,8 @@ function App() {
             <Route path="/facilities" element={<Facilities />} />
             <Route path="/startups" element={<Startups />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

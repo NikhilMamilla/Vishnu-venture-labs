@@ -21,8 +21,8 @@ module.exports = {
                 'custom-sky': '#00C6FF',
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                header: ['Poppins', 'Inter', 'sans-serif'],
+                sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                header: ['Outfit', 'sans-serif'],
             },
         },
     },
