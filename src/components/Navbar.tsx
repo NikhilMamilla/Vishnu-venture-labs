@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     ? `${baseNavLinkClasses} text-white/90 hover:text-white hover:border-cyan-400 hover:text-[1rem]`
     : `${baseNavLinkClasses} text-[#222] hover:text-primary-blue hover:border-primary-blue hover:text-[1rem]`;
 
-  const dropdownLinkClasses = "block px-[22px] py-[12px] text-[#646262] font-medium text-[0.81rem] border-b-[2.5px] border-transparent hover:text-black hover:border-primary-blue hover:text-[0.95rem] transition-all duration-200 font-playfair";
+
 
   return (
     <header className={`w-full z-[1000] transition-all duration-300 ${isTransparentPage ? 'absolute top-0 left-0 bg-transparent' : 'relative bg-white shadow-[0_2px_5px_rgba(0,0,0,0.1)]'}`}>
