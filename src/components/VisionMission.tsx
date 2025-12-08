@@ -26,7 +26,7 @@ const VisionMission: React.FC = () => {
                         </h2>
                     </div>
 
-                    <p className="font-sans text-lg text-body-text leading-relaxed text-justify opacity-90">
+                    <p className="font-sans text-lg text-body-text leading-relaxed text-left md:text-justify opacity-90">
                         Our vision is to build a world-class, purpose-driven innovation ecosystem that nurtures inclusive, sustainable, and deep-tech innovations. We aspire to be a catalyst for startups and innovators who aim to address pressing societal challenges while contributing to economic growth and the UN Sustainable Development Goals. VVLF envisions an environment where creativity meets cutting-edge technology, and bold ideas are transformed into meaningful, market-ready solutions with global relevance.
                     </p>
                 </div>
@@ -47,7 +47,7 @@ const VisionMission: React.FC = () => {
                         </h2>
                     </div>
 
-                    <p className="font-sans text-lg text-body-text leading-relaxed text-justify opacity-90">
+                    <p className="font-sans text-lg text-body-text leading-relaxed text-left md:text-justify opacity-90">
                         Our mission is to incubate and accelerate early-stage, tech-led startups while fostering collaboration between academia, industry, and government. VVLF equips young innovators with the skills, tools, and networks they need to thrive and catalyzes solutions aligned with both the SDGs and national innovation priorities. We aim to support the entire innovation journey—from idea conception to large-scale impact—by providing holistic support and guidance at every stage.
                     </p>
                 </div>

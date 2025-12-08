@@ -63,7 +63,7 @@ const Facilities: React.FC = () => {
 
                 {/* Content */}
                 <div className="container mx-auto px-4 relative z-10 text-center pb-32" data-aos="fade-down" data-aos-duration="1000">
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight drop-shadow-2xl font-serif">
+                    <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight drop-shadow-2xl font-serif">
                         Our <span className="text-cyan-200">Facilities</span>
                     </h1>
                     <div className="w-32 h-1 bg-cyan-400 mx-auto mb-8 rounded-full"></div>
@@ -94,7 +94,7 @@ const Facilities: React.FC = () => {
                     <h2 className="font-header text-3xl font-bold text-dark-text mb-6 uppercase tracking-wide border-l-4 border-primary-blue pl-4">
                         Why Choose VVLF
                     </h2>
-                    <p className="font-sans text-lg text-body-text leading-relaxed text-justify">
+                    <p className="font-sans text-lg text-body-text leading-relaxed text-left md:text-justify">
                         Vishnu Venture Labs Foundation stands out because of its strong backing from BVRIT Narsapur and direct access to industry experts, corporate networks, and government liaisons. We provide end-to-end startup support under one roof—from idea validation to scaling and investor connects—ensuring a seamless growth journey for entrepreneurs. Our startups benefit from hands-on mentorship, personalized guidance from mentors, domain experts, and successful entrepreneurs. With state-of-the-art prototyping labs, research centers, and opportunities for interdisciplinary collaborations, VVLF is uniquely positioned to foster impact-driven innovations. Cohorts, peer learning, and networking opportunities further create a supportive and vibrant entrepreneurial community.
                     </p>
                 </div>
@@ -103,7 +103,7 @@ const Facilities: React.FC = () => {
                     <h2 className="font-header text-3xl font-bold text-dark-text mb-6 uppercase tracking-wide border-l-4 border-cyan-400 pl-4">
                         What We Offer
                     </h2>
-                    <p className="font-sans text-lg text-body-text leading-relaxed text-justify">
+                    <p className="font-sans text-lg text-body-text leading-relaxed text-left md:text-justify">
                         We offer comprehensive startup support, including access to cutting-edge prototyping labs, co-working and meeting spaces, and BVRIT research centers. Our mentorship and advisory programs connect founders with a robust network of mentors from academia and industry, providing technical clinics, business coaching, and personalized roadmaps for growth. We also facilitate funding access by linking startups to grants, investor connect programs, and seed or CSR funding opportunities. Additionally, VVLF supports collaborations and branding through government liaison for pilots and approvals, showcasing opportunities at expos and media, and assistance in building a strong digital identity and marketing presence.
                     </p>
                 </div>

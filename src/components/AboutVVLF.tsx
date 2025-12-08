@@ -16,7 +16,7 @@ const AboutVVLF: React.FC = () => {
                         About VVLF
                         <span className="absolute bottom-0 left-0 w-0 h-1 bg-[#2563eb] transition-all duration-400 group-hover:w-1/2"></span>
                     </h2>
-                    <p className="mt-6 text-lg leading-relaxed text-justify">
+                    <p className="mt-6 text-lg leading-relaxed text-left md:text-justify">
                         Vishnu Venture Labs Foundation (VVLF), the incubation center of B V Raju Institute of Technology Narsapur, is a not-for-profit Section 8 company dedicated to empowering early-stage startups, innovators, and researchers through world-class infrastructure, mentorship, and access to industry networks. VVLF fosters a structured ecosystem that supports idea validation, prototyping, business modeling, and scale-up assistance, enabling founders to transform purpose-driven innovations into scalable, high-impact ventures.                    </p>
                 </div>
             </div>

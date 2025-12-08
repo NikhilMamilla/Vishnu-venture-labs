@@ -143,7 +143,7 @@ const Footer: React.FC = () => {
 
                         {/* Right Side - Institution Name and Links */}
                         <div className="flex-1 lg:text-right">
-                            <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+                            <h1 className="text-2xl md:text-4xl font-bold mb-6 text-white">
                                 <a
                                     href="/"
                                     className="hover:underline"

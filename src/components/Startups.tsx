@@ -71,7 +71,7 @@ const Startups: React.FC = () => {
 
                 {/* Content */}
                 <div className="container mx-auto px-4 relative z-10 text-center pb-32" data-aos="fade-down" data-aos-duration="1000">
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight drop-shadow-2xl font-serif">
+                    <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight drop-shadow-2xl font-serif">
                         Our <span className="text-cyan-200">Startups</span>
                     </h1>
                     <div className="w-32 h-1 bg-cyan-400 mx-auto mb-8 rounded-full"></div>
@@ -134,7 +134,7 @@ const Startups: React.FC = () => {
                                         {startup.websiteDisplay}
                                     </a>
                                 )}
-                                <p className={`font-sans text-gray-700 text-[1.05rem] leading-relaxed text-justify ${!startup.websiteLink ? 'mt-3' : ''}`}>
+                                <p className={`font-sans text-gray-700 text-[1.05rem] leading-relaxed text-left md:text-justify ${!startup.websiteLink ? 'mt-3' : ''}`}>
                                     {startup.description}
                                 </p>
                             </div>
